@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img=cv.imread('soccer.jpg') 
+img=cv.imread('/Users/johyeon-u/source/ip/W2/soccer.jpg') 
 img=cv.resize(img,dsize=(0,0),fx=0.25,fy=0.25)
 
 def gamma(f,gamma=1.0):
