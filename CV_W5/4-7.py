@@ -1,7 +1,7 @@
 import cv2 as cv 
 import numpy as np
 
-img=cv.imread('./W5/soccer.jpg')	# 영상 읽기
+img=cv.imread('/Users/johyeon-u/source/ip/CV_W5/soccer.jpg')	# 영상 읽기
 img_show=np.copy(img)		# 붓 칠을 디스플레이할 목적의 영상
 
 mask=np.zeros((img.shape[0],img.shape[1]),np.uint8) 
